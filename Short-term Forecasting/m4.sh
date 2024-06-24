@@ -1,0 +1,182 @@
+CUDA_VISIBLE_DEVICES=3 python -u run_m4.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Monthly' \
+  --model_id m4_Monthly \
+  --model "S2IPLLM" \
+  --d_model 768 \
+  --data m4 \
+  --features M \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --patch_size 1 \
+  --stride 1 \
+  --batch_size 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --loss 'SMAPE' \
+  --train_epochs 50 \
+  --model_comment 'S2LLM-M4' \
+  --patience 3 \
+  --add_prompt 1 \
+  --prompt_length 4 \
+  --sim_coef -0.1 \
+  --pool_size  1000 \
+  --trend_length 4 \
+  --seasonal_length 2
+
+
+
+CUDA_VISIBLE_DEVICES=3 python -u run_m4.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Yearly' \
+  --model_id m4_Yearly \
+  --model "S2IPLLM" \
+  --d_model 768 \
+  --data m4 \
+  --features M \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --patch_size 1 \
+  --stride 1 \
+  --batch_size 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --loss 'SMAPE' \
+  --train_epochs 50 \
+  --model_comment 'S2LLM-M4' \
+  --patience 3 \
+  --add_prompt 1 \
+  --prompt_length 2 \
+  --sim_coef -0.01 \
+  --pool_size  1000 \
+  --trend_length 1 \
+  --seasonal_length 1
+
+CUDA_VISIBLE_DEVICES=3 python -u  run_m4.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Weekly' \
+  --model_id m4_Weekly \
+  --model "S2IPLLM" \
+  --d_model 768 \
+  --data m4 \
+  --features M \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --patch_size 1 \
+  --stride 1 \
+  --batch_size 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --loss 'SMAPE' \
+  --train_epochs 50 \
+  --model_comment 'S2LLM-M4' \
+  --patience 3 \
+  --add_prompt 1 \
+  --prompt_length 4 \
+  --sim_coef -0.1 \
+  --pool_size  1000 \
+  --trend_length 4 \
+  --seasonal_length 2
+
+CUDA_VISIBLE_DEVICES=3 python -u  run_m4.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Daily' \
+  --model_id m4_Daily \
+  --model "S2IPLLM" \
+  --d_model 768 \
+  --data m4 \
+  --features M \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --patch_size 1 \
+  --stride 1 \
+  --batch_size 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --loss 'SMAPE' \
+  --train_epochs 50 \
+  --model_comment 'S2LLM-M4' \
+  --patience 3 \
+  --add_prompt 1 \
+  --prompt_length 4 \
+  --sim_coef -0.1 \
+  --pool_size  1000 \
+  --trend_length 4 \
+  --seasonal_length 2
+
+CUDA_VISIBLE_DEVICES=3 python -u  run_m4.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Quarterly' \
+  --model_id m4_Quarterly \
+  --model "S2IPLLM" \
+  --d_model 768 \
+  --data m4 \
+  --features M \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --patch_size 1 \
+  --stride 1 \
+  --batch_size 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --loss 'SMAPE' \
+  --train_epochs 50 \
+  --model_comment 'S2LLM-M4' \
+  --patience 3 \
+  --add_prompt 1 \
+  --prompt_length 2 \
+  --sim_coef -0.1 \
+  --pool_size  1000 \
+  --trend_length 1 \
+  --seasonal_length 1
+
+
+CUDA_VISIBLE_DEVICES=3 python -u  run_m4.py \
+  --task_name short_term_forecast \
+  --is_training 1 \
+  --root_path ./dataset/m4 \
+  --seasonal_patterns 'Hourly' \
+  --model_id m4_Hourly \
+  --model "S2IPLLM" \
+  --d_model 768 \
+  --data m4 \
+  --features M \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --patch_size 1 \
+  --stride 1 \
+  --batch_size 64 \
+  --des 'Exp' \
+  --itr 1 \
+  --learning_rate 0.001 \
+  --loss 'SMAPE' \
+  --train_epochs 50 \
+  --model_comment 'S2LLM-M4' \
+  --patience 3 \
+  --add_prompt 1 \
+  --prompt_length 4 \
+  --sim_coef -0.1 \
+  --pool_size  1000 \
+  --trend_length 4 \
+  --seasonal_length 2
