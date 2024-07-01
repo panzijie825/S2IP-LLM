@@ -34,7 +34,7 @@ parser.add_argument('--model', type=str, required=True, default='Autoformer',
 
 # data loader
 parser.add_argument('--data', type=str, required=True, default='ETTh1', help='dataset type')
-parser.add_argument('--number_variable', type=int, required=True, default=7, help='number of variable')
+parser.add_argument('--number_variable', type=int,default=7, help='number of variable')
 
 parser.add_argument('--root_path', type=str, default='./data/raw_data/ETTh1/', help='root path of the data file')
 parser.add_argument('--data_path', type=str, default='ETTh1.csv', help='data file')
