@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./data/ETTm2 \
+  --root_path ./data/ETT-small \
   --data_path ETTm2.csv \
   --model_id ETTm2_512_96 \
   --model S2IPLLM \
@@ -34,7 +34,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
 CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./data/ETTm2 \
+  --root_path ./data/ETT-small \
   --data_path ETTm2.csv \
   --model_id ETTm2_512_192 \
   --model S2IPLLM \
@@ -68,7 +68,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
 CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./data/ETTm2 \
+  --root_path ./data/ETT-small \
   --data_path ETTm2.csv \
   --model_id ETTm2_512_336 \
   --model S2IPLLM \
@@ -102,7 +102,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
 CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./data/ETTm2 \
+  --root_path ./data/ETT-small \
   --data_path ETTm2.csv \
   --model_id ETTm2_512_720 \
   --model S2IPLLM \
