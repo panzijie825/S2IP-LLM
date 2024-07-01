@@ -13,7 +13,9 @@ data_dict = {
     'ETTm1_decomposed': Dataset_ETT_minute_decomposed,
     'ETTm2': Dataset_ETT_minute,
     'ETTm2_decomposed': Dataset_ETT_minute_decomposed,
-    'custom': Dataset_Custom
+    'ECL': Dataset_Custom,
+    'traffic': Dataset_Custom,
+    'weather': Dataset_Custom
    
 }
 

@@ -22,7 +22,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --stride 8 \
   --add_prompt 1 \
   --prompt_length 4 \
-  --batch_size 64 \
+  --batch_size 128 \
   --sim_coef -0.05 \
   --pool_size  1000 \
   --percent 100 \
@@ -55,7 +55,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --stride 8 \
   --add_prompt 1 \
   --prompt_length 4 \
-  --batch_size 64 \
+  --batch_size 128 \
   --sim_coef -0.05 \
   --pool_size  1000 \
   --percent 100 \
@@ -89,7 +89,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --stride 8 \
   --add_prompt 1 \
   --prompt_length 8 \
-  --batch_size 64 \
+  --batch_size 128 \
   --sim_coef -0.05 \
   --pool_size  1000 \
   --percent 100 \
@@ -123,7 +123,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --stride 8 \
   --add_prompt 1 \
   --prompt_length 4 \
-  --batch_size 64 \
+  --batch_size 128 \
   --sim_coef -0.05 \
   --pool_size  5000 \
   --percent 100 \
