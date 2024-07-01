@@ -6,7 +6,6 @@ import torch
 import torch.nn as nn
 from models import  S2IPLLM
 from torch.nn.utils import clip_grad_norm_
-from models.prompt import get_prompt, get_instruction_prompt,get_meta_prompt
 from utils.losses import mape_loss, mase_loss, smape_loss
 
 

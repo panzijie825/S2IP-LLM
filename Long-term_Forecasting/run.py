@@ -120,6 +120,9 @@ parser.add_argument('--sim_coef', type=float, default=0.0)
 parser.add_argument('--pool_size', type=int, default=1000)
 parser.add_argument('--period', type=int, default=24)
 parser.add_argument('--prompt_init', type=str, default='text_prototype', help='prompt_init_type')
+parser.add_argument('--trend_length', type=int, default=24, help='trend_length')
+parser.add_argument('--seasonal_length', type=int, default=96, help='seasonal_length')
+
 
 
 

@@ -78,7 +78,7 @@ class Model(nn.Module):
         if self.task_name == 'long_term_forecast':
         
             self.in_layer = nn.Linear(configs.patch_size*3, configs.d_model)
-            self.out_layer = nn.Linear(int(configs.d_model / 3 * (self.patch_num*configs.prompt_length)) , configs.pred_len)
+            self.out_layer = nn.Linear(int(configs.d_model / 3 * (self.patch_num+configs.prompt_length)) , configs.pred_len)
             
             self.prompt_pool = Prompt(length=1, embed_dim=768, embedding_key='mean', prompt_init='uniform', prompt_pool=False, 
                  prompt_key=True, pool_size=self.configs.pool_size, top_k=self.configs.prompt_length, batchwise_prompt=False, prompt_key_init=self.configs.prompt_init,wte = self.gpt2.wte.weight)

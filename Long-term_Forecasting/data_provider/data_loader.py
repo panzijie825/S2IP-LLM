@@ -8,7 +8,6 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.preprocessing import StandardScaler
 from utils.timefeatures import time_features
 from statsmodels.tsa.seasonal import STL
-from data_provider.m4 import M4Dataset, M4Meta
 import warnings
 from tqdm import tqdm
 from joblib import Parallel, delayed
