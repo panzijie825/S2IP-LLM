@@ -24,7 +24,7 @@ CUDA_VISIBLE_DEVICES=1 python -u run.py \
              --period 24 \
              --percent 100 \
              --trend_length 24 \
-             --seasonal_length 8
+             --seasonal_length 4
 
 
 
@@ -54,7 +54,7 @@ CUDA_VISIBLE_DEVICES=1 python -u run.py \
              --period 24 \
              --percent 100 \
              --trend_length 24 \
-             --seasonal_length 8
+             --seasonal_length 12
 
 
 CUDA_VISIBLE_DEVICES=1 python -u run.py \
@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=1 python -u run.py \
              --period 24 \
              --percent 100 \
              --trend_length 24 \
-             --seasonal_length 8
+             --seasonal_length 4
 
 
 
@@ -113,4 +113,4 @@ CUDA_VISIBLE_DEVICES=1 python -u run.py \
              --period 24 \
              --percent 100 \
              --trend_length 24 \
-             --seasonal_length 8
+             --seasonal_length 12

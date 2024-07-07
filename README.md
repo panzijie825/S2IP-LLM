@@ -32,6 +32,12 @@ cd long-term_Forecasting
 sh scripts/etth1.sh
 ```
 
+## Model_checkpoints
+
+Some model checkpoints can be found at:
+[Drive](https://shorturl.at/cDd46)
+
+
 
 
 ## 📚 Citation
