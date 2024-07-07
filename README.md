@@ -28,7 +28,8 @@ Begin by downloading the required datasets. All datasets are conveniently availa
 All scripts are located in `./scripts`. Example:
 
 ```shell
-sh ./long-term_Forecasting/scripts/etth1.sh
+cd long-term_Forecasting 
+sh scripts/etth1.sh
 ```
 
 
