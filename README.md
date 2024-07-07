@@ -6,12 +6,16 @@ Official reponsitory for "S^2IP-LLM: Semantic Space Informed Prompt Learning wit
 
 ## 🛠 Prerequisites
 
-Ensure you have installed the necessary dependencies by running:
+Ensure you have installed the necessary dependencies by first building environment:
 
+```
+conda create -n "myenv" python=3.10.0
+conda activate myenv
+```
+Inside the folder, run:
 ```
 pip install -r requirements.txt
 ```
-
 
 ## 📊 Prepare Datastes
 
