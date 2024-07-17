@@ -90,11 +90,11 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --add_prompt 1 \
   --prompt_length 8 \
   --batch_size 128 \
-  --sim_coef -0.05 \
+  --sim_coef -0.01 \
   --pool_size  1000 \
   --percent 100 \
-  --trend_length 96 \
-  --seasonal_length 96
+  --trend_length 24\
+  --seasonal_length 24
 
 
 
@@ -118,16 +118,16 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
   --des 'Exp' \
   --itr 1 \
   --d_model 768 \
-  --learning_rate 0.0001 \
+  --learning_rate 0.001 \
   --patch_size 16 \
   --stride 8 \
   --add_prompt 1 \
   --prompt_length 4 \
   --batch_size 128 \
-  --sim_coef -0.05 \
-  --pool_size  5000 \
+  --sim_coef -0.01 \
+  --pool_size  1000 \
   --percent 100 \
-  --trend_length 96 \
-  --seasonal_length 12
+  --trend_length 192 \
+  --seasonal_length 48
 
 
